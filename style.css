@@ -33,3 +33,17 @@ image{
 .col1 img{
     display: none;
 }
+.hero{
+    height: 100vh;
+    background-image: url("main2.5.jpg");
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+}
+.intro{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
