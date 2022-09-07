@@ -47,3 +47,33 @@ image{
     transform: translate(-50%,-50%);
     text-align: center;
 }
+
+/**about section**/
+.container{
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+}
+
+.col-30{
+    width: 29%;
+}
+
+.col-70{
+    width: 69%;
+}
+
+.content{
+    padding-left: 20px;
+    padding-right: 40px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 767px){
+    .column{
+        display: block;
+        width: 100%;
+    }
+}
+    
+}
